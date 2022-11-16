@@ -1,0 +1,24 @@
+<link rel="stylesheet" href="/navbar.css">
+
+<nav>
+        <ul>
+        {{#if user}}
+        <li>
+          <a  href="logout">Cerrar sesión</a>
+        </li>
+        <li>
+          <a  href="/users/settings">Configuracion</a>
+        </li>
+        {{else}}
+        <li >
+          <a href="/users/login">Iniciar sesión</a>
+        </li>
+        <li>
+          <a href="/users/register">Crear usuario</a>
+        </li>
+        {{/if}}
+        <li>
+            <a href="/">Inicio</a> 
+        </li>
+      </ul>
+</nav>

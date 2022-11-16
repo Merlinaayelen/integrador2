@@ -1,0 +1,86 @@
+.page-container { 
+  width: 90vw;
+  margin: auto;
+ 
+  
+}
+
+/* HEADER */
+header { 
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.isologo {
+  display: flex;
+  align-items: center;   
+}
+
+header p { 
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 2rem;
+ color:  gray;
+ text-decoration: solid;
+ align-content: flex-end;
+}
+
+header h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:  6rem;
+  color: rgb(246, 174, 39);
+  margin-right: 15rem;
+  margin-left: 5rem;
+  
+}
+
+
+/* Que es el softbol */
+
+
+.que-es-el-softbol-container h1 {
+  
+  font-family: "Roboto"; 
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(8, 7, 7);
+}
+
+.que-es-el-softbol {
+  font-family: "Roboto"; 
+  align-content: center;
+  text-align: justify;
+  columns: 3;
+  gap: 2rem;
+  column-rule: solid rgb(238, 148, 45) 1.5px;
+}
+
+.que-es-el-softbol p:first-letter {
+  font-size: 3rem;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  float: left;
+  line-height: 2.8rem;
+  background-color:rgba(225, 151, 22, 0.87);
+  margin-right: 0.2;
+  margin-top: 0;
+  padding: 3;
+}
+
+.que-es-el-softbol  figcaption { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: darkgray;
+
+}
+
+.que-es-el-softbol img {
+    border: solid 5px gray;
+    width: 350px;
+  }
+
+
+

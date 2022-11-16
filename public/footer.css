@@ -1,0 +1,27 @@
+/*FOOTER - pie de pagina*/
+
+footer {
+    background-color: rgb(246, 174, 39);
+    width: auto;
+    height: 12rem;
+    text-align: center;
+    align-items: center;
+  
+  }
+  
+  footer h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 3rem;
+    text-decoration: solid;
+    align-items: flex-end;
+  }
+  
+  footer h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 1rem;
+    text-decoration: solid;
+    align-items: flex-end;
+  }
+  

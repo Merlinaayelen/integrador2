@@ -1,0 +1,49 @@
+/*NAV - link de paginas*/
+
+.nav-ball {
+    transition-duration: 1.6s;
+  }
+  
+  .nav-ball:hover {
+    color: greenyellow;
+    transform: rotate(360deg); 
+  
+  }
+  
+  nav {
+    display: flex;
+    background-color: darkgrey;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+   }
+  
+  nav ul li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;
+    display: inline;
+   
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: .3rem;
+    margin-right: 5rem;
+    
+  }
+  
+  nav ul li a:hover { 
+    background-color: rgb(246, 174, 39);
+    color: white;
+    border-radius: 3px;
+  }
+
+  .configuracion {
+    align-items: flex-end;
+    display:
+
+    nav-item dropdown
+
+
+  }
